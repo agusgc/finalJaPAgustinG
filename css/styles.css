@@ -377,16 +377,16 @@ background-size: contain;
 background-repeat: no-repeat;  
 background-position: center;
 background-size: 100% auto;
-    height: 300px;  /* O el alto que prefieras para tu jumbotron */
+height: 300px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .jumbotron {
     display: none;
   }
 }
 
-@media (min-width: 577px) {
+@media (min-width: 769px) {
   .jumbotron-responsive {
     display: none;
   }
